@@ -1,0 +1,75 @@
+body{
+background: url("https://www.lazone.id/news/2017/Mei/8%20mei/denim/Banner.jpg")
+}
+
+.wrap{
+	background:greenyellow;
+	width: 900px;
+	margin: 10px auto;
+}
+ 
+.wrap .header{
+	background: grey;
+	padding: 2px 10px;
+}
+ 
+.wrap .menu{
+	background: yellow;
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: yellow;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+
+.wrap .badan .sidebar{
+	background: skyblue;
+	float: left;	
+	width: 25%;
+	height: 100%;
+}
+  
+.wrap .badan .content{
+	background: white;
+	float: left;
+	height: 100%;
+    width: 75%;
+}
+
+.content p{
+    margin: 10px;
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
+
+.content img{
+    width: 150px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 20px;
+    float: left;
+}
+
+.content h1{
+    text-align: center
+}
+
